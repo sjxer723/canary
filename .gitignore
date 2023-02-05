@@ -1,6 +1,7 @@
 *.a
 *.o
 *.bc
+build/
 bench/*.ll
 bench/*/*.ll
 bench/*/*/*.ll

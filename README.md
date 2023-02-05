@@ -19,6 +19,8 @@ If you use Canary, please cite Canary as below (latex style).
 Building Canary
 ------
 
+* Build via Scons
+
 ```bash
 git clone https://github.com/qingkaishi/canary.git
 cd canary
@@ -26,6 +28,16 @@ scons # >= 2.3.0
 sudo scons install
 ```
 
+* Build via Cmake
+
+```bash
+git clone https://github.com/qingkaishi/canary.git
+cd canary
+mkdir build
+cd build
+cmake ..
+make
+```
 
 Using Canary
 ------
